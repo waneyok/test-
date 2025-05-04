@@ -1,0 +1,121 @@
+h1, h2, {
+    color: rgba(170, 7, 162, 0.808); /*Цвет текста*/
+    background-color: rgb(241, 166, 179); /*Цвет фона*/
+    font-family: Courier New; /*Шрифт*/
+    font-weight: bold; /*Жирность текста*/
+    text-align: center;
+} 
+
+h1, h2 {
+    border: solid 1px rgb(255, 0, 0); /*Граница*/
+    border-color: rgb(255, 0, 0); /*Цвет границы*/
+    border-width: 3.5px; /*Толщина границы*/
+    border-radius: 100px; /*Скругление углов*/
+}
+
+
+h4, h3 {
+    background-color: rgb(209, 109, 204); /*Цвет фона*/
+    border-radius: 100px; /*Скругление углов*/
+    margin-top: 20px; /*Отступ сверху*/
+    margin-bottom: 20px; /*Отступ снизу*/
+    margin-left: 20px; /*Отступ слева*/
+    margin-right: 20px; /*Отступ справа*/
+    margin: 20px; /*Отступ слева, справа, сверху, снизу*/
+}
+
+p {
+    color: rgba(255, 255, 255, 0.808); /*Цвет текста*/ 
+    background-color: rgb(241, 166, 179); /*Цвет фона*/
+    font-size: 35px;
+    font-family: monospace; /*Шрифт*/
+    font-style: italic; /*Стиль текста*/
+    font-weight: bold; /*Жирность текста*/
+    /* padding-left: 50px; /*Отступ слева*/
+    /* padding-bottom: 50px; Отступ снизу */
+    /* padding-top: 50px; Отступ сверху */ 
+    padding: 5px; /*Отступ слева, справа, сверху, снизу*/
+    border: solid 1px black; /*Граница*/
+    border-color: rgb(255, 117, 117); /*Цвет границы*/
+    border-width: 5px; /*Толщина границы*/
+    border-radius: 100px; /*Скругление углов*/
+    margin-left: 50px; /*Отступ слева*/
+    margin-right: 50px; /*Отступ справа*/
+    margin-top: 50px; /*Отступ сверху*/
+    margin-bottom: 50px; /*Отступ снизу*/
+    margin: 50px; /*Отступ слева, справа, сверху, снизу*/
+}
+
+
+body {
+    background-image: url(https://wallpaperswide.com/download/aubrieta_flowers-wallpaper-2880x1800.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /*Цвет текста*/
+    text-align: center;
+}
+
+a {
+    color: white; /*Цвет текста*/
+    text-decoration: none; /*Удаление подчеркивания*/
+
+}
+a:hover {
+    color: blue; /*Цвет текста*/
+    text-decoration: underline; /*Подчеркивание текста*/
+}
+
+.word {
+    background-color: rgb(209, 109, 204); /*Цвет фона*/
+    border-radius: 100px; /*Скругление углов*/
+
+}
+
+.title {
+    background-color: rgb(209, 109, 204); /*Цвет фона*/
+    border-radius: 100px; /*Скругление углов*/
+}
+
+
+
+img {
+    width: 150px; /*Ширина*/
+    height: 100px; /*Высота*/
+    border: solid 2px black; /*Граница*/
+    border-color: rgb(255, 117, 117); /*Цвет границы*/
+    padding-top: 10px; /*Отступ сверху*/
+    padding-bottom: 10px; /*Отступ снизу*/
+    padding-left: 10px; /*Отступ слева*/
+    padding-right: 10px; /*Отступ справа*/
+    background-color: white; /*Цвет фона*/
+    border-radius: 0px 100px 0px 100px;
+}
+
+
+
+#buttonПереход {
+    background-color: rgb(209, 109, 204); /*Цвет фона*/
+    border-radius: 100px; /*Сругление углов*/
+    margin-top: 20px; /*Отступ сверху от фото*/
+    display: block; /*Перенос на новую строку*/
+    margin-left: auto; /*Центрирование*/
+    margin-right: auto; /*Центрирование*/
+
+}
+
+#buttonПереход:hover {
+    background-color: rgb(55, 0, 255); /*Цвет фона*/
+    color: white; /*Цвет текста*/
+    text-decoration: underline; /*Подчеркивание текста*/
+}
+
+.PCXT {
+    border-radius: 10px 15px 10px 15px;
+    border: solid 2px black; /*Граница*/
+    border-color: rgb(255, 117, 117); /*Цвет границы*/
+    border-width: 5px; /*Толщина границы*/
+    margin: 50px; /*Отступ слева, справа, сверху, снизу*/
+    width: 404px; /*Ширина*/
+    height: 404px; /*Высота*/
+}
